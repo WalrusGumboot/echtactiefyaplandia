@@ -4,7 +4,6 @@ WORKDIR /app
 COPY package*.json /app
 COPY . .
 COPY .env .env
-RUN npm install prisma -D && npx prisma generate && npm run build
 
 FROM node:current-alpine
 WORKDIR /app

@@ -1,0 +1,6 @@
+services:
+  echtactiefyaplandia:
+    restart: unless-stopped
+    build: .
+    ports:
+      - 39989:39989
