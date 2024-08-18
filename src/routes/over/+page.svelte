@@ -6,8 +6,8 @@
         Yaplandia, een voorgaande vereniging. De hoofdreden tot deze splitsing
         was een van boven opgelegde dominantie van de oprichter ervan. Omwille
         van ongelukkige plaatsing aan de corona van de presidiumweekcantus zagen
-        de ontevreden Yaplandianen hun kans schoon om analoog aan Wina's "actief
-        cultuur"-tak een 'reinere' vorm van de moedervereniging op te richten.
+        de ontevreden Yaplandianen hun kans schoon om analoog aan Wina's "Actief
+        Cultuur"-tak een 'reinere' vorm van de moedervereniging op te richten.
         Waar Yaplandia echter een korte levensduur genoot, heeft Echt Actief
         Yaplandia de tand des tijds doorstaan.
     </p>

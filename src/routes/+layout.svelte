@@ -51,7 +51,7 @@
 
         <!-- NIET-MOBIEL TOPBAR -->
         <div
-            class="hidden lg:visible bg-white rounded-full px-6 py-2 shadow-md w-full flex flex-row justify-between mb-6"
+            class="hidden bg-white rounded-full px-6 py-2 shadow-md w-full lg:flex flex-row justify-between mb-6"
         >
             <div class="h-2">
                 <a href="/" class="font-bold text-lg">
