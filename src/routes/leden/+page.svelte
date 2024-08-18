@@ -9,6 +9,8 @@
     import mattBriersFoto from "../../assets/leden/matt_briers.webp";
 
     import leandroMatthysFoto from "../../assets/leden/leandro_matthys.webp";
+    import vitoCourtensFoto from "../../assets/leden/vito_courtens.webp";
+    import tristanVanHerpenFoto from "../../assets/leden/tristan_van_herpen.webp";
 
     import Lid from "$lib/Lid.svelte";
 
@@ -65,6 +67,14 @@
             naam: "Leandro Matthys",
             functie: "Cameratelaar",
         },
+        {
+            foto: vitoCourtensFoto,
+            naam: "Vito Courtens"
+        },
+        {
+            foto: tristanVanHerpenFoto,
+            naam: "Tristan Van Herpen"
+        }
     ];
 </script>
 

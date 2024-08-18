@@ -2,14 +2,6 @@
 
 <div class="max-w-prose bg-white rounded-md p-6">
     <p>
-        Centraal in de yapfilosofie is Prousts idee van extratemporalisatie. Wij
-        verheffen deze tot het uiterste, tot de grenzen van waar het ons kan
-        brengen. Immers, zoals Wittgenstein schrijft in zijn
-        <i>Tractatus Logico-Philosophicus</i>: de taal begrenst de wereld van
-        binnenuit.
-    </p>
-
-    <p>
         In de complexe weefsels van het menselijk bestaan, verweven met
         ontelbare draden van ervaringen, gedachten en emoties, ligt een
         diepgaande behoefte aan communicatie. Yappen, is niet slechts een
