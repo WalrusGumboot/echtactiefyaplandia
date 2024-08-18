@@ -26,6 +26,9 @@
   },
   "type": "module",
   "dependencies": {
+    "@portabletext/svelte": "^2.1.11",
+    "@sanity/client": "^6.21.3",
+    "@sanity/image-url": "^1.0.2",
     "@sveltejs/adapter-vercel": "^5.4.3"
   }
 }

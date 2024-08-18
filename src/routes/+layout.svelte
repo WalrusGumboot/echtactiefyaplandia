@@ -3,7 +3,7 @@
 
     import "../app.css";
     import schild from "../assets/schild.svg";
-    let links = ["over", "statuten", "filosofie", "leden"];
+    let links = ["over", "evenementen", "statuten", "filosofie", "leden"];
 
     let mobielMenuOpen = false;
 
@@ -24,7 +24,7 @@
         <div class="h-12" />
         <a href="/">home</a>
         {#each links as link}
-            <a href={link}>{link}</a>
+            <a href={"/" + link}>{link}</a>
         {/each}
     </div>
 {:else}
