@@ -3,7 +3,7 @@
 
     import "../app.css";
     import schild from "../assets/schild.svg";
-    let links = ["over", "evenementen", "statuten", "filosofie", "leden"];
+    let links = ["over", "evenementen", "statuten", "filosofie", "galerij", "leden"];
 
     let mobielMenuOpen = false;
 
