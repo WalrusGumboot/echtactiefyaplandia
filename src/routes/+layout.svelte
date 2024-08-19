@@ -65,7 +65,7 @@
             <div></div>
             <div class="flex flex-row gap-4">
                 {#each links as link}
-                    <a href={link}>{link}</a>
+                    <a href={"/" + link}>{link}</a>
                 {/each}
             </div>
         </div>
