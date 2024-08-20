@@ -12,7 +12,7 @@
     alt={data.evenement.naam}
 />
 
-{#if data.mssFotos}
+{#if data.mssFotos.length}
     <a class="rounded-md p-4 bg-white hover:shadow-md" href={"/galerij/" + data.mssFotos[0].slug}>
         Naar de foto's van dit evenement
     </a>
