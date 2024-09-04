@@ -27,7 +27,7 @@ Hieronder vind je de leden van Echt Actief Yaplandia.
 
 {#each ["Echt Actief Yapper", "Actief Yapper", "Yapper"] as level}
     <h3 class="text-xl">{level}s</h3>
-    <div class="grid lg:grid-cols-2 gap-4 w-full max-w-2/3">
+    <div class="grid lg:grid-cols-3 gap-4 w-full max-w-2/3">
         {#each alleLeden.filter((lid) => lid.level == level) as lid}
             <Lid
                 functie={lid.functie}

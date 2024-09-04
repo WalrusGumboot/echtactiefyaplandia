@@ -3,7 +3,14 @@
 
     import "../app.css";
     import schild from "../assets/schild.svg";
-    let links = ["over", "evenementen", "statuten", "filosofie", "galerij", "leden"];
+    let links = [
+        "over",
+        "evenementen",
+        "statuten",
+        "filosofie",
+        "galerij",
+        "leden",
+    ];
 
     let mobielMenuOpen = false;
 
@@ -69,25 +76,23 @@
                 {/each}
             </div>
         </div>
-        <slot></slot>
-        <p class="h-12 text-gray-200">yap</p>
-
-        {#if !mobielMenuOpen}
-            <footer
-                class="absolute bottom-0 left-0 right-0 h-12 flex flex-row bg-white p-2 items-center justify-center border-t-2 border-black gap-4"
-            >
-                <a
-                    class="text-blue-500 underline"
-                    href="https://www.instagram.com/echt.actief.yaplandia"
-                    >Instagram</a
-                >
-
-                <a
-                    class="text-blue-500 underline"
-                    href="https://www.facebook.com/profile.php?id=61564095374775"
-                    >Facebook</a
-                >
-            </footer>
-        {/if}
+        <slot />
     </div>
+{/if}
+
+{#if !mobielMenuOpen}
+    <footer
+        class="h-12 w-screen flex flex-row bg-white p-2 items-center justify-center border-t-2 border-black gap-4"
+    >
+        <a
+            class="text-blue-500 underline"
+            href="https://www.instagram.com/echt.actief.yaplandia">Instagram</a
+        >
+
+        <a
+            class="text-blue-500 underline"
+            href="https://www.facebook.com/profile.php?id=61564095374775"
+            >Facebook</a
+        >
+    </footer>
 {/if}

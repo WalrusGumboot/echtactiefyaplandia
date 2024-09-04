@@ -27,7 +27,6 @@ export const galerijEntryType = defineType({
             fieldset: 'bron',
             name: 'hoortBijEvenement',
             type: 'boolean',
-            validation: (rule) => rule.required()
         }),
         defineField({
             fieldset: 'bron',
@@ -37,7 +36,7 @@ export const galerijEntryType = defineType({
             options: { disableNew: true },
             hidden: ({ document }) => !(document?.hoortBijEvenement),
             // @ts-ignore
-            validation: (rule) => rule.custom((_field, { document: { hoortBijEvenement } }) => hoortBijEvenement)
+            // validation: (rule) => rule.custom((_field, { document: { hoortBijEvenement } }) => hoortBijEvenement)
         }),
         defineField({
             fieldset: 'bron',
@@ -52,7 +51,7 @@ export const galerijEntryType = defineType({
                     }
                 }
             },
-            validation: (rule) => rule.required()
+            // validation: (rule) => rule.required()
         }),
 
 
