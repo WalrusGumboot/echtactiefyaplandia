@@ -50,7 +50,7 @@
             class="rounded-md"
         />
         <caption class="w-full">
-            Figuur 1: V.l.n.r.: de vicepraeses, praeses en ab-actis van Echt
+            Figuur 1: V.l.n.r.: de vicepreses, praeses en ab-actis van Echt
             Actief Yaplandia.
         </caption>
     </figure>
