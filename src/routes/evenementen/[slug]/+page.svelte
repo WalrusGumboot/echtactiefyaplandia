@@ -29,12 +29,17 @@
 </div>
 
 <style lang="postcss">
-    #content ul {
+    :global(#content ul) {
         list-style-type: disc;
         list-style-position: inside;
     }
 
-    #content a {
+    :global(#content ol) {
+        list-style-type: decimal;
+        list-style-position: inside;
+    }
+
+    :global(#content a) {
         color: theme(colors.blue.500);
         text-decoration: underline;
     }
